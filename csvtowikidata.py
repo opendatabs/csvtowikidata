@@ -83,7 +83,6 @@ for row in rows:
     year = int(row["Jahr"])
     population_value = row["Einwohner"]
     item_id = Basel_mapping[row['Wohnviertel_id']]
-    print(str(year) + ": " + row['Wohnviertel_id'] + " -> " + item_id + ": " + str(population_value) + " Einwohner")
     item = pywikibot.ItemPage(repo, item_id)
     item.get()
     #print(item.claims)
@@ -93,6 +92,7 @@ for row in rows:
     population_claim = existing_claim_from_year(item, year)
     #print(population_claim)
     if (population_claim is None):
+        print(str(year) + ": " + row['Wohnviertel_id'] + " -> " + item_id + ": " + str(population_value) + " Einwohner")
         population_claim = pywikibot.Claim(repo, population_prop_id)
         population_claim.setTarget(pywikibot.WbQuantity(amount=population_value, site=site))
         item.addClaim(population_claim)
@@ -115,4 +115,7 @@ for row in rows:
             population_claim.changeRank("preferred")
     else:
         print ("Population claim already exists on %s for year %d, skipping") % (item_id, year)
-        #todo: set rank to normal
+        #set rank to normal if not latest year
+        if (population_claim.getRank() == "preferred" and year != latest_year):
+            print("This is not the latest year's claim, changing rank from preferred to normal")
+            population_claim.changeRank("normal")
