@@ -6,11 +6,15 @@ import pprint
 #set preferred rank for latest year
 latest_year = 2018
 data_file = "SandboxData.csv"
+#data_file = "Einwohner_BS_pro_Wohnviertel_2000-2018.csv"
+#data_file = "Einwohner_Basel.csv"
 population_prop_id = 'P1082'
 time_prop_id = 'P585'
 url_prop_id = 'P854'
 retrieved_prop_id = 'P813'
+title_prop_id = 'P1476'
 source_url = 'https://www.statistik.bs.ch/dam/jcr:2d711b31-d8c9-4f5d-9151-55ff4ef4028d/t01-1-16.xlsx'
+source_title_text = "Statistisches Amt Basel-Stadt: Bevoelkerungsstatistik"
 #item_id = "Q4115189" #wikidata sandbox
 #item_id = "Q809909" #Basel-Klybeck
 
@@ -108,7 +112,9 @@ for row in rows:
         today = datetime.datetime.today()
         retrieved_date = pywikibot.WbTime(year=today.year, month=today.month, day=today.day)
         retrieved.setTarget(retrieved_date)
-        population_claim.addSources([source, retrieved])
+        title = pywikibot.Claim(repo, title_prop_id)
+        title.setTarget(pywikibot.WbMonolingualText(text=source_title_text, language='de'))
+        population_claim.addSources([source, retrieved, title])
     
         #set preferred rank for latest year only
         if (year == latest_year):
@@ -119,3 +125,7 @@ for row in rows:
         if (population_claim.getRank() == "preferred" and year != latest_year):
             print("This is not the latest year's claim, changing rank from preferred to normal")
             population_claim.changeRank("normal")
+        if (population_claim.getRank() != "preferred" and year == latest_year):
+            print("This is latest year's claim, changing rank from normal to preferred")
+            population_claim.changeRank("preferred")
+        
