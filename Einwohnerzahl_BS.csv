@@ -1,22 +1,22 @@
-﻿Wohnviertel_id;Wohnviertel_Name;Einwohnerzahl_31.12.2018
-1;Altstadt Grossbasel;2599
-2;Vorstädte;5013
-3;Am Ring;11005
-4;Breite;8990
-5;St. Alban;11534
-6;Gundeldingen;18779
-7;Bruderholz;9357
-8;Bachletten;13545
-9;Gotthelf;6936
-10;Iselin;16987
-11;St. Johann;18684
-12;Altstadt Kleinbasel;2445
-13;Clara;4082
-14;Wettstein;5560
-15;Hirzbrunnen;9377
-16;Rosental;6840
-17;Matthäus;15711
-18;Klybeck;7293
-19;Kleinhüningen;2858
-20;Riehen;21448
-30;Bettingen;1213
+Wohnviertel_id,Wohnviertel_Name,Einwohnerzahl_31.12.2018
+1,Altstadt Grossbasel,2599
+2,Vorstaedte,5013
+3,Am Ring,11005
+4,Breite,8990
+5,St. Alban,11534
+6,Gundeldingen,18779
+7,Bruderholz,9357
+8,Bachletten,13545
+9,Gotthelf,6936
+10,Iselin,16987
+11,St. Johann,18684
+12,Altstadt Kleinbasel,2445
+13,Clara,4082
+14,Wettstein,5560
+15,Hirzbrunnen,9377
+16,Rosental,6840
+17,Matthaeus,15711
+18,Klybeck,7293
+19,Kleinhueningen,2858
+20,Riehen,21448
+30,Bettingen,1213

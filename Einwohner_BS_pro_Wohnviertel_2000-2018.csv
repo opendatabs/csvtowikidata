@@ -1,0 +1,438 @@
+Wohnviertel,Wohnviertel_id,Jahr,Einwohner
+Stadt Basel,90,2000,166848
+Stadt Basel,90,2001,165548
+Stadt Basel,90,2002,166120
+Stadt Basel,90,2003,166286
+Stadt Basel,90,2004,166646
+Stadt Basel,90,2005,166203
+Stadt Basel,90,2006,165968
+Stadt Basel,90,2007,166217
+Stadt Basel,90,2008,167763
+Stadt Basel,90,2009,169037
+Stadt Basel,90,2010,168804
+Stadt Basel,90,2011,170331
+Stadt Basel,90,2012,171428
+Stadt Basel,90,2013,173330
+Stadt Basel,90,2014,174286
+Stadt Basel,90,2015,175131
+Stadt Basel,90,2016,176015
+Stadt Basel,90,2017,176461
+Stadt Basel,90,2018,177595
+Altstadt Grossbasel,1,2000,2135
+Altstadt Grossbasel,1,2001,2117
+Altstadt Grossbasel,1,2002,2108
+Altstadt Grossbasel,1,2003,2088
+Altstadt Grossbasel,1,2004,2082
+Altstadt Grossbasel,1,2005,2085
+Altstadt Grossbasel,1,2006,2057
+Altstadt Grossbasel,1,2007,2113
+Altstadt Grossbasel,1,2008,2083
+Altstadt Grossbasel,1,2009,2058
+Altstadt Grossbasel,1,2010,2033
+Altstadt Grossbasel,1,2011,2057
+Altstadt Grossbasel,1,2012,2426
+Altstadt Grossbasel,1,2013,2461
+Altstadt Grossbasel,1,2014,2454
+Altstadt Grossbasel,1,2015,2470
+Altstadt Grossbasel,1,2016,2546
+Altstadt Grossbasel,1,2017,2590
+Altstadt Grossbasel,1,2018,2599
+Vorstadte,2,2000,4740
+Vorstadte,2,2001,4698
+Vorstadte,2,2002,4647
+Vorstadte,2,2003,4557
+Vorstadte,2,2004,4535
+Vorstadte,2,2005,4572
+Vorstadte,2,2006,4598
+Vorstadte,2,2007,4609
+Vorstadte,2,2008,4704
+Vorstadte,2,2009,4776
+Vorstadte,2,2010,4746
+Vorstadte,2,2011,4668
+Vorstadte,2,2012,4662
+Vorstadte,2,2013,4814
+Vorstadte,2,2014,4868
+Vorstadte,2,2015,4932
+Vorstadte,2,2016,5022
+Vorstadte,2,2017,5015
+Vorstadte,2,2018,5013
+Am Ring,3,2000,10385
+Am Ring,3,2001,10218
+Am Ring,3,2002,10294
+Am Ring,3,2003,10323
+Am Ring,3,2004,10501
+Am Ring,3,2005,10499
+Am Ring,3,2006,10369
+Am Ring,3,2007,10363
+Am Ring,3,2008,10380
+Am Ring,3,2009,10434
+Am Ring,3,2010,10386
+Am Ring,3,2011,10522
+Am Ring,3,2012,10563
+Am Ring,3,2013,10751
+Am Ring,3,2014,10622
+Am Ring,3,2015,10642
+Am Ring,3,2016,10734
+Am Ring,3,2017,10810
+Am Ring,3,2018,11005
+Breite,4,2000,8657
+Breite,4,2001,8582
+Breite,4,2002,8357
+Breite,4,2003,8366
+Breite,4,2004,8371
+Breite,4,2005,8360
+Breite,4,2006,8467
+Breite,4,2007,8466
+Breite,4,2008,8486
+Breite,4,2009,8469
+Breite,4,2010,8526
+Breite,4,2011,8623
+Breite,4,2012,8688
+Breite,4,2013,8806
+Breite,4,2014,8863
+Breite,4,2015,8848
+Breite,4,2016,8936
+Breite,4,2017,8904
+Breite,4,2018,8990
+St. Alban,5,2000,9979
+St. Alban,5,2001,9903
+St. Alban,5,2002,10056
+St. Alban,5,2003,9903
+St. Alban,5,2004,10076
+St. Alban,5,2005,10083
+St. Alban,5,2006,10175
+St. Alban,5,2007,10217
+St. Alban,5,2008,10470
+St. Alban,5,2009,10516
+St. Alban,5,2010,10611
+St. Alban,5,2011,10674
+St. Alban,5,2012,10677
+St. Alban,5,2013,10798
+St. Alban,5,2014,10890
+St. Alban,5,2015,10909
+St. Alban,5,2016,10896
+St. Alban,5,2017,11158
+St. Alban,5,2018,11534
+Gundeldingen,6,2000,18244
+Gundeldingen,6,2001,18099
+Gundeldingen,6,2002,18092
+Gundeldingen,6,2003,18271
+Gundeldingen,6,2004,18304
+Gundeldingen,6,2005,18326
+Gundeldingen,6,2006,18372
+Gundeldingen,6,2007,18443
+Gundeldingen,6,2008,18621
+Gundeldingen,6,2009,18702
+Gundeldingen,6,2010,18471
+Gundeldingen,6,2011,18618
+Gundeldingen,6,2012,18649
+Gundeldingen,6,2013,18833
+Gundeldingen,6,2014,18941
+Gundeldingen,6,2015,18860
+Gundeldingen,6,2016,18881
+Gundeldingen,6,2017,18819
+Gundeldingen,6,2018,18779
+Bruderholz,7,2000,8987
+Bruderholz,7,2001,8954
+Bruderholz,7,2002,8897
+Bruderholz,7,2003,8851
+Bruderholz,7,2004,8821
+Bruderholz,7,2005,8747
+Bruderholz,7,2006,8699
+Bruderholz,7,2007,8787
+Bruderholz,7,2008,8803
+Bruderholz,7,2009,8882
+Bruderholz,7,2010,8911
+Bruderholz,7,2011,8984
+Bruderholz,7,2012,9005
+Bruderholz,7,2013,9065
+Bruderholz,7,2014,9059
+Bruderholz,7,2015,9065
+Bruderholz,7,2016,9208
+Bruderholz,7,2017,9245
+Bruderholz,7,2018,9357
+Bachletten,8,2000,13500
+Bachletten,8,2001,13344
+Bachletten,8,2002,13347
+Bachletten,8,2003,13216
+Bachletten,8,2004,13288
+Bachletten,8,2005,13223
+Bachletten,8,2006,13151
+Bachletten,8,2007,13230
+Bachletten,8,2008,13258
+Bachletten,8,2009,13300
+Bachletten,8,2010,13155
+Bachletten,8,2011,13299
+Bachletten,8,2012,13346
+Bachletten,8,2013,13408
+Bachletten,8,2014,13489
+Bachletten,8,2015,13561
+Bachletten,8,2016,13541
+Bachletten,8,2017,13526
+Bachletten,8,2018,13545
+Gotthelf,9,2000,6660
+Gotthelf,9,2001,6573
+Gotthelf,9,2002,6546
+Gotthelf,9,2003,6607
+Gotthelf,9,2004,6626
+Gotthelf,9,2005,6637
+Gotthelf,9,2006,6644
+Gotthelf,9,2007,6670
+Gotthelf,9,2008,6692
+Gotthelf,9,2009,6780
+Gotthelf,9,2010,6761
+Gotthelf,9,2011,6762
+Gotthelf,9,2012,6832
+Gotthelf,9,2013,6796
+Gotthelf,9,2014,6840
+Gotthelf,9,2015,6841
+Gotthelf,9,2016,6837
+Gotthelf,9,2017,6898
+Gotthelf,9,2018,6936
+Iselin,10,2000,15937
+Iselin,10,2001,15904
+Iselin,10,2002,15872
+Iselin,10,2003,16028
+Iselin,10,2004,16028
+Iselin,10,2005,15706
+Iselin,10,2006,15637
+Iselin,10,2007,15686
+Iselin,10,2008,15739
+Iselin,10,2009,15798
+Iselin,10,2010,15972
+Iselin,10,2011,16158
+Iselin,10,2012,16195
+Iselin,10,2013,16380
+Iselin,10,2014,16454
+Iselin,10,2015,16592
+Iselin,10,2016,16682
+Iselin,10,2017,16849
+Iselin,10,2018,16987
+St. Johann,11,2000,18036
+St. Johann,11,2001,17919
+St. Johann,11,2002,18051
+St. Johann,11,2003,17980
+St. Johann,11,2004,17936
+St. Johann,11,2005,17831
+St. Johann,11,2006,17767
+St. Johann,11,2007,17697
+St. Johann,11,2008,17844
+St. Johann,11,2009,18097
+St. Johann,11,2010,18317
+St. Johann,11,2011,18566
+St. Johann,11,2012,18638
+St. Johann,11,2013,18873
+St. Johann,11,2014,18958
+St. Johann,11,2015,18810
+St. Johann,11,2016,18758
+St. Johann,11,2017,18680
+St. Johann,11,2018,18684
+Altstadt Kleinbasel,12,2000,2347
+Altstadt Kleinbasel,12,2001,2334
+Altstadt Kleinbasel,12,2002,2361
+Altstadt Kleinbasel,12,2003,2317
+Altstadt Kleinbasel,12,2004,2316
+Altstadt Kleinbasel,12,2005,2264
+Altstadt Kleinbasel,12,2006,2266
+Altstadt Kleinbasel,12,2007,2218
+Altstadt Kleinbasel,12,2008,2242
+Altstadt Kleinbasel,12,2009,2304
+Altstadt Kleinbasel,12,2010,2287
+Altstadt Kleinbasel,12,2011,2272
+Altstadt Kleinbasel,12,2012,2288
+Altstadt Kleinbasel,12,2013,2380
+Altstadt Kleinbasel,12,2014,2445
+Altstadt Kleinbasel,12,2015,2435
+Altstadt Kleinbasel,12,2016,2496
+Altstadt Kleinbasel,12,2017,2464
+Altstadt Kleinbasel,12,2018,2445
+Clara,13,2000,3786
+Clara,13,2001,3782
+Clara,13,2002,3782
+Clara,13,2003,3787
+Clara,13,2004,3796
+Clara,13,2005,3740
+Clara,13,2006,3756
+Clara,13,2007,3861
+Clara,13,2008,3969
+Clara,13,2009,4018
+Clara,13,2010,3983
+Clara,13,2011,4012
+Clara,13,2012,4069
+Clara,13,2013,4107
+Clara,13,2014,4065
+Clara,13,2015,4029
+Clara,13,2016,4023
+Clara,13,2017,4084
+Clara,13,2018,4082
+Wettstein,14,2000,5261
+Wettstein,14,2001,5200
+Wettstein,14,2002,5290
+Wettstein,14,2003,5398
+Wettstein,14,2004,5454
+Wettstein,14,2005,5489
+Wettstein,14,2006,5423
+Wettstein,14,2007,5387
+Wettstein,14,2008,5411
+Wettstein,14,2009,5493
+Wettstein,14,2010,5402
+Wettstein,14,2011,5375
+Wettstein,14,2012,5366
+Wettstein,14,2013,5362
+Wettstein,14,2014,5591
+Wettstein,14,2015,5607
+Wettstein,14,2016,5648
+Wettstein,14,2017,5530
+Wettstein,14,2018,5560
+Hirzbrunnen,15,2000,9148
+Hirzbrunnen,15,2001,9057
+Hirzbrunnen,15,2002,9020
+Hirzbrunnen,15,2003,8898
+Hirzbrunnen,15,2004,8788
+Hirzbrunnen,15,2005,8734
+Hirzbrunnen,15,2006,8526
+Hirzbrunnen,15,2007,8424
+Hirzbrunnen,15,2008,8464
+Hirzbrunnen,15,2009,8582
+Hirzbrunnen,15,2010,8519
+Hirzbrunnen,15,2011,8685
+Hirzbrunnen,15,2012,8648
+Hirzbrunnen,15,2013,8726
+Hirzbrunnen,15,2014,8934
+Hirzbrunnen,15,2015,9004
+Hirzbrunnen,15,2016,9230
+Hirzbrunnen,15,2017,9316
+Hirzbrunnen,15,2018,9377
+Rosental,16,2000,4290
+Rosental,16,2001,4343
+Rosental,16,2002,4502
+Rosental,16,2003,4559
+Rosental,16,2004,4592
+Rosental,16,2005,4622
+Rosental,16,2006,4711
+Rosental,16,2007,4769
+Rosental,16,2008,4881
+Rosental,16,2009,5100
+Rosental,16,2010,5179
+Rosental,16,2011,5143
+Rosental,16,2012,5269
+Rosental,16,2013,5381
+Rosental,16,2014,5337
+Rosental,16,2015,6173
+Rosental,16,2016,6552
+Rosental,16,2017,6603
+Rosental,16,2018,6840
+Matthaeus,17,2000,15284
+Matthaeus,17,2001,15140
+Matthaeus,17,2002,15426
+Matthaeus,17,2003,15580
+Matthaeus,17,2004,15650
+Matthaeus,17,2005,15680
+Matthaeus,17,2006,15638
+Matthaeus,17,2007,15696
+Matthaeus,17,2008,16039
+Matthaeus,17,2009,15841
+Matthaeus,17,2010,15763
+Matthaeus,17,2011,15980
+Matthaeus,17,2012,15962
+Matthaeus,17,2013,16217
+Matthaeus,17,2014,16252
+Matthaeus,17,2015,16172
+Matthaeus,17,2016,15930
+Matthaeus,17,2017,15871
+Matthaeus,17,2018,15711
+Klybeck,18,2000,7113
+Klybeck,18,2001,7021
+Klybeck,18,2002,7023
+Klybeck,18,2003,7064
+Klybeck,18,2004,7012
+Klybeck,18,2005,7054
+Klybeck,18,2006,7166
+Klybeck,18,2007,7037
+Klybeck,18,2008,7145
+Klybeck,18,2009,7247
+Klybeck,18,2010,7170
+Klybeck,18,2011,7240
+Klybeck,18,2012,7268
+Klybeck,18,2013,7294
+Klybeck,18,2014,7348
+Klybeck,18,2015,7281
+Klybeck,18,2016,7202
+Klybeck,18,2017,7255
+Klybeck,18,2018,7293
+Kleinhueningen,19,2000,2359
+Kleinhueningen,19,2001,2360
+Kleinhueningen,19,2002,2449
+Kleinhueningen,19,2003,2493
+Kleinhueningen,19,2004,2470
+Kleinhueningen,19,2005,2551
+Kleinhueningen,19,2006,2546
+Kleinhueningen,19,2007,2544
+Kleinhueningen,19,2008,2532
+Kleinhueningen,19,2009,2640
+Kleinhueningen,19,2010,2612
+Kleinhueningen,19,2011,2693
+Kleinhueningen,19,2012,2877
+Kleinhueningen,19,2013,2878
+Kleinhueningen,19,2014,2876
+Kleinhueningen,19,2015,2900
+Kleinhueningen,19,2016,2893
+Kleinhueningen,19,2017,2844
+Kleinhueningen,19,2018,2858
+Riehen,20,2000,20540
+Riehen,20,2001,20743
+Riehen,20,2002,20722
+Riehen,20,2003,20721
+Riehen,20,2004,20628
+Riehen,20,2005,20523
+Riehen,20,2006,20619
+Riehen,20,2007,20605
+Riehen,20,2008,20608
+Riehen,20,2009,20582
+Riehen,20,2010,20821
+Riehen,20,2011,20787
+Riehen,20,2012,20832
+Riehen,20,2013,20939
+Riehen,20,2014,20947
+Riehen,20,2015,20869
+Riehen,20,2016,21001
+Riehen,20,2017,21336
+Riehen,20,2018,21448
+Bettingen,30,2000,1193
+Bettingen,30,2001,1168
+Bettingen,30,2002,1173
+Bettingen,30,2003,1206
+Bettingen,30,2004,1203
+Bettingen,30,2005,1194
+Bettingen,30,2006,1205
+Bettingen,30,2007,1178
+Bettingen,30,2008,1185
+Bettingen,30,2009,1196
+Bettingen,30,2010,1174
+Bettingen,30,2011,1186
+Bettingen,30,2012,1199
+Bettingen,30,2013,1190
+Bettingen,30,2014,1238
+Bettingen,30,2015,1204
+Bettingen,30,2016,1190
+Bettingen,30,2017,1191
+Bettingen,30,2018,1213
+Kanton Basel-Stadt,99,2000,188581
+Kanton Basel-Stadt,99,2001,187459
+Kanton Basel-Stadt,99,2002,188015
+Kanton Basel-Stadt,99,2003,188213
+Kanton Basel-Stadt,99,2004,188477
+Kanton Basel-Stadt,99,2005,187920
+Kanton Basel-Stadt,99,2006,187792
+Kanton Basel-Stadt,99,2007,188000
+Kanton Basel-Stadt,99,2008,189556
+Kanton Basel-Stadt,99,2009,192824
+Kanton Basel-Stadt,99,2010,190799
+Kanton Basel-Stadt,99,2011,192304
+Kanton Basel-Stadt,99,2012,193459
+Kanton Basel-Stadt,99,2013,195459
+Kanton Basel-Stadt,99,2014,196471
+Kanton Basel-Stadt,99,2015,197204
+Kanton Basel-Stadt,99,2016,198206
+Kanton Basel-Stadt,99,2017,198988
+Kanton Basel-Stadt,99,2018,200256
