@@ -5,8 +5,8 @@ import pprint
 
 #set preferred rank for latest year
 latest_year = 2018
-data_file = "SandboxData.csv"
-#data_file = "Einwohner_BS_pro_Wohnviertel_2000-2018.csv"
+#data_file = "SandboxData.csv"
+data_file = "Einwohner_BS_pro_Wohnviertel_2000-2018.csv"
 #data_file = "Einwohner_Basel.csv"
 population_prop_id = 'P1082'
 time_prop_id = 'P585'
@@ -120,7 +120,7 @@ for row in rows:
         if (year == latest_year):
             population_claim.changeRank("preferred")
     else:
-        print ("Population claim already exists on %s for year %d, skipping") % (item_id, year)
+        print ("Population claim already exists on %s for year %d") % (item_id, year)
         #set rank to normal if not latest year
         if (population_claim.getRank() == "preferred" and year != latest_year):
             print("This is not the latest year's claim, changing rank from preferred to normal")
