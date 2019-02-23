@@ -3,16 +3,21 @@ import datetime
 import csv
 import pprint
 
+#set preferred rank for latest year
+latest_year = 2018
+data_file = "SandboxData.csv"
 population_prop_id = 'P1082'
 time_prop_id = 'P585'
 url_prop_id = 'P854'
 retrieved_prop_id = 'P813'
 source_url = 'https://www.statistik.bs.ch/dam/jcr:2d711b31-d8c9-4f5d-9151-55ff4ef4028d/t01-1-16.xlsx'
-item_id = "Q4115189" #wikidata sandbox
+#item_id = "Q4115189" #wikidata sandbox
 #item_id = "Q809909" #Basel-Klybeck
 
 
 Basel_mapping = {
+    #Wikidata Sandbox
+    '-1': "Q4115189",
     '1' : "Q445565", 
     '2' : "Q809915", 
     '3' : "Q809899",
@@ -35,7 +40,7 @@ Basel_mapping = {
     '20' : "Q5262",
     '30' : "Q67530",
     #Gemeinde Basel
-    '0' : "Q78",
+    '90' : "Q78",
     #Kanton Basel-Stadt
     '99' : "Q12172"
 }
@@ -43,7 +48,7 @@ Basel_mapping = {
 def existing_claim_from_year(item, year):
     try:
         claims = item.claims['P1082']
-        time_str = pywikibot.WbTime(year=year).toTimestr()
+        time_str = pywikibot.WbTime(year=year, month=12, day=31).toTimestr()
         for claim in claims:
             for qualifier_value in claim.qualifiers['P585']:
                 if (qualifier_value.getTarget().toTimestr() == time_str):
@@ -68,25 +73,26 @@ def read_file(path):
 # connect to WikiData
 site = pywikibot.Site("wikidata", "wikidata")
 repo = site.data_repository()
-item = pywikibot.ItemPage(repo, item_id)
-item.get()
-#print(item.claims)
 
-#rows = read_file("Einwohnerzahl_BS.csv")
-rows = read_file("Einwohner_BS_pro_Wohnviertel_2000-2018.csv")
-pprint.pprint(rows)
-
+rows = read_file(data_file)
+#pprint.pprint(rows)
 
 #exit()
 
-
-year_list = range(2018, 2019)
-for year in year_list:
+for row in rows:
+    year = int(row["Jahr"])
+    population_value = row["Einwohner"]
+    item_id = Basel_mapping[row['Wohnviertel_id']]
+    print(str(year) + ": " + row['Wohnviertel_id'] + " -> " + item_id + ": " + str(population_value) + " Einwohner")
+    item = pywikibot.ItemPage(repo, item_id)
+    item.get()
+    #print(item.claims)
+    
+    #year_list = range(2018, 2019)
+    #for year in year_list:
     population_claim = existing_claim_from_year(item, year)
-    print(population_claim)
+    #print(population_claim)
     if (population_claim is None):
-        
-        population_value = 7293
         population_claim = pywikibot.Claim(repo, population_prop_id)
         population_claim.setTarget(pywikibot.WbQuantity(amount=population_value, site=site))
         item.addClaim(population_claim)
@@ -104,6 +110,9 @@ for year in year_list:
         retrieved.setTarget(retrieved_date)
         population_claim.addSources([source, retrieved])
     
-        population_claim.changeRank("preferred")
+        #set preferred rank for latest year only
+        if (year == latest_year):
+            population_claim.changeRank("preferred")
     else:
         print ("Population claim already exists on %s for year %d, skipping") % (item_id, year)
+        #todo: set rank to normal
